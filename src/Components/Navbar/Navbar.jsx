@@ -8,7 +8,6 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import "../Navbar/Navbar.css";
 
 const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -74,60 +73,60 @@ const Navbar = () => {
             >
               <MenuItem
                 onClick={handleCloseNavMenu}
-                className="navbar_content_butons"
+                sx={{ backgroundColor: "black" }}
               >
                 <Button
                   variant="text"
                   color="inherit"
-                  className="Navbar_button_data"
+                  sx={{ color: "white", textTransform: "none" }}
                 >
                   About
                 </Button>
               </MenuItem>
               <MenuItem
                 onClick={handleCloseNavMenu}
-                className="navbar_content_butons"
+                sx={{ backgroundColor: "black" }}
               >
                 <Button
                   variant="text"
                   color="inherit"
-                  className="Navbar_button_data"
+                  sx={{ color: "white", textTransform: "none" }}
                 >
                   Resume
                 </Button>
               </MenuItem>
               <MenuItem
                 onClick={handleCloseNavMenu}
-                className="navbar_content_butons"
+                sx={{ backgroundColor: "black" }}
               >
                 <Button
                   variant="text"
                   color="inherit"
-                  className="Navbar_button_data"
+                  sx={{ color: "white", textTransform: "none" }}
                 >
                   Portfolio
                 </Button>
               </MenuItem>
               <MenuItem
                 onClick={handleCloseNavMenu}
-                className="navbar_content_butons"
+                sx={{ backgroundColor: "black" }}
               >
                 <Button
                   variant="text"
                   color="inherit"
-                  className="Navbar_button_data"
+                  sx={{ color: "white", textTransform: "none" }}
                 >
                   Blog
                 </Button>
               </MenuItem>
               <MenuItem
                 onClick={handleCloseNavMenu}
-                className="navbar_content_butons"
+                sx={{ backgroundColor: "black" }}
               >
                 <Button
                   variant="text"
                   color="inherit"
-                  className="Navbar_button_data"
+                  sx={{ color: "white", textTransform: "none" }}
                 >
                   Contact
                 </Button>
@@ -144,19 +143,54 @@ const Navbar = () => {
               },
             }}
           >
-            <Button sx={{ my: 2, color: "white", display: "block" }}>
+            <Button
+              sx={{
+                my: 2,
+                color: "white",
+                display: "block",
+                textTransform: "none",
+              }}
+            >
               About
             </Button>
-            <Button sx={{ my: 2, color: "white", display: "block" }}>
+            <Button
+              sx={{
+                my: 2,
+                color: "white",
+                display: "block",
+                textTransform: "none",
+              }}
+            >
               Resume
             </Button>
-            <Button sx={{ my: 2, color: "white", display: "block" }}>
+            <Button
+              sx={{
+                my: 2,
+                color: "white",
+                display: "block",
+                textTransform: "none",
+              }}
+            >
               Portfolio
             </Button>
-            <Button sx={{ my: 2, color: "white", display: "block" }}>
+            <Button
+              sx={{
+                my: 2,
+                color: "white",
+                display: "block",
+                textTransform: "none",
+              }}
+            >
               Blog
             </Button>
-            <Button sx={{ my: 2, color: "white", display: "block" }}>
+            <Button
+              sx={{
+                my: 2,
+                color: "white",
+                display: "block",
+                textTransform: "none",
+              }}
+            >
               Contact
             </Button>
           </Box>
