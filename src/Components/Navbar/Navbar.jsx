@@ -8,8 +8,10 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -39,7 +41,14 @@ const Navbar = () => {
         }}
       >
         <Toolbar disableGutters sx={{ alignItems: "center" }}>
-          <img src={LogoNav} alt="" width={220} />
+          <img
+            src={LogoNav}
+            alt=""
+            width={220}
+            draggable="false"
+            onClick={() => navigate("/home")}
+            style={{ cursor: "pointer" }}
+          />
           <Box
             sx={{
               flexGrow: 1,
@@ -78,6 +87,7 @@ const Navbar = () => {
                 <Button
                   variant="text"
                   color="inherit"
+                  onClick={() => navigate("/about")}
                   sx={{ color: "white", textTransform: "none" }}
                 >
                   About
@@ -144,6 +154,7 @@ const Navbar = () => {
             }}
           >
             <Button
+              onClick={() => navigate("/about")}
               sx={{
                 my: 2,
                 color: "white",
@@ -154,6 +165,7 @@ const Navbar = () => {
               About
             </Button>
             <Button
+            onClick={()=>navigate('/resume')}
               sx={{
                 my: 2,
                 color: "white",
@@ -164,6 +176,7 @@ const Navbar = () => {
               Resume
             </Button>
             <Button
+            onClick={()=>navigate('/portfoliopage')}
               sx={{
                 my: 2,
                 color: "white",
@@ -174,6 +187,7 @@ const Navbar = () => {
               Portfolio
             </Button>
             <Button
+            onClick={()=>navigate('/blog')}
               sx={{
                 my: 2,
                 color: "white",
@@ -184,6 +198,7 @@ const Navbar = () => {
               Blog
             </Button>
             <Button
+            onClick={()=>navigate('/contact')}
               sx={{
                 my: 2,
                 color: "white",
