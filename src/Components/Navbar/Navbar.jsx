@@ -8,6 +8,7 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
+import "../Navbar/Navbar.css";
 
 const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -73,41 +74,61 @@ const Navbar = () => {
             >
               <MenuItem
                 onClick={handleCloseNavMenu}
-                sx={{ backgroundColor: "black" }}
+                className="navbar_content_butons"
               >
-                <Button variant="text" color="inherit" sx={{ color: "white" }}>
+                <Button
+                  variant="text"
+                  color="inherit"
+                  className="Navbar_button_data"
+                >
                   About
                 </Button>
               </MenuItem>
               <MenuItem
                 onClick={handleCloseNavMenu}
-                sx={{ backgroundColor: "black" }}
+                className="navbar_content_butons"
               >
-                <Button variant="text" color="inherit" sx={{ color: "white" }}>
+                <Button
+                  variant="text"
+                  color="inherit"
+                  className="Navbar_button_data"
+                >
                   Resume
                 </Button>
               </MenuItem>
               <MenuItem
                 onClick={handleCloseNavMenu}
-                sx={{ backgroundColor: "black" }}
+                className="navbar_content_butons"
               >
-                <Button variant="text" color="inherit" sx={{ color: "white" }}>
+                <Button
+                  variant="text"
+                  color="inherit"
+                  className="Navbar_button_data"
+                >
                   Portfolio
                 </Button>
               </MenuItem>
               <MenuItem
                 onClick={handleCloseNavMenu}
-                sx={{ backgroundColor: "black" }}
+                className="navbar_content_butons"
               >
-                <Button variant="text" sx={{ color: "white" }}>
+                <Button
+                  variant="text"
+                  color="inherit"
+                  className="Navbar_button_data"
+                >
                   Blog
                 </Button>
               </MenuItem>
               <MenuItem
                 onClick={handleCloseNavMenu}
-                sx={{ backgroundColor: "black" }}
+                className="navbar_content_butons"
               >
-                <Button variant="text" color="inherit" sx={{ color: "white" }}>
+                <Button
+                  variant="text"
+                  color="inherit"
+                  className="Navbar_button_data"
+                >
                   Contact
                 </Button>
               </MenuItem>
