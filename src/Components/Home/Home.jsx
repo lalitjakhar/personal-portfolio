@@ -1,7 +1,6 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import Homemain from "../../Assets/homemain.avif";
-import Footer from "../Footer/Footer";
 
 const styles = {
   boxContainer: {

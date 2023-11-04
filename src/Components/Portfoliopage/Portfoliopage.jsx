@@ -1,11 +1,14 @@
-import React from 'react';
+import { Container, Typography } from "@mui/material";
+import React from "react";
 
 const Portfoliopage = () => {
-    return (
-        <>
-        <h1>portfolio</h1>
-        </>
-    );
-}
+  return (
+    <>
+      <Container>
+        <Typography color="white">fgdsf</Typography>
+      </Container>
+    </>
+  );
+};
 
 export default Portfoliopage;

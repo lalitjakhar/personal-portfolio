@@ -174,66 +174,81 @@ const Navbar = () => {
             }}
           >
             <Button
+              variant="contained"
+              color="success"
               onClick={() => navigate("/about")}
               sx={{
                 my: 2,
+                backgroundColor: "transparent",
                 color: "white",
                 display: "block",
                 textTransform: "none",
                 fontFamily: "fantasy",
-                fontSize:'1.1rem',
+                fontSize: "1.1rem",
               }}
             >
               About
             </Button>
             <Button
+              variant="contained"
+              color="success"
               onClick={() => navigate("/resume")}
               sx={{
                 my: 2,
+                backgroundColor: "transparent",
                 color: "white",
                 display: "block",
                 textTransform: "none",
                 fontFamily: "fantasy",
-                fontSize:'1.1rem',
+                fontSize: "1.1rem",
               }}
             >
               Resume
             </Button>
             <Button
+              variant="contained"
+              color="success"
               onClick={() => navigate("/portfoliopage")}
               sx={{
                 my: 2,
+                backgroundColor: "transparent",
                 color: "white",
                 display: "block",
                 textTransform: "none",
-                fontFamily:'fantasy',
-                fontSize:'1.1rem',
+                fontFamily: "fantasy",
+                fontSize: "1.1rem",
               }}
             >
               Portfolio
             </Button>
             <Button
+              variant="contained"
+              color="success"
               onClick={() => navigate("/blog")}
               sx={{
                 my: 2,
+                backgroundColor: "transparent",
                 color: "white",
                 display: "block",
                 textTransform: "none",
                 fontFamily: "fantasy",
-                fontSize:'1.1rem',
+                fontSize: "1.1rem",
               }}
             >
               Blog
             </Button>
             <Button
+              variant="contained"
+              color="success"
               onClick={() => navigate("/contact")}
               sx={{
                 my: 2,
+                backgroundColor: "transparent",
                 color: "white",
                 display: "block",
                 textTransform: "none",
                 fontFamily: "fantasy",
-                fontSize:'1.1rem',
+                fontSize: "1.1rem",
               }}
             >
               Contact
