@@ -7,6 +7,7 @@ import Resume from "../Resume/Resume";
 import Portfoliopage from "../Portfoliopage/Portfoliopage";
 import Blog from "../Blog/Blog";
 import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 
 const Routing = () => {
   return (
@@ -21,6 +22,7 @@ const Routing = () => {
         <Route path="/blog" element={<Blog />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
+      <Footer />
     </>
   );
 };

@@ -88,7 +88,11 @@ const Navbar = () => {
                   variant="text"
                   color="inherit"
                   onClick={() => navigate("/about")}
-                  sx={{ color: "white", textTransform: "none" }}
+                  sx={{
+                    color: "white",
+                    textTransform: "none",
+                    fontFamily: "fantasy",
+                  }}
                 >
                   About
                 </Button>
@@ -100,7 +104,11 @@ const Navbar = () => {
                 <Button
                   variant="text"
                   color="inherit"
-                  sx={{ color: "white", textTransform: "none" }}
+                  sx={{
+                    color: "white",
+                    textTransform: "none",
+                    fontFamily: "fantasy",
+                  }}
                 >
                   Resume
                 </Button>
@@ -112,7 +120,11 @@ const Navbar = () => {
                 <Button
                   variant="text"
                   color="inherit"
-                  sx={{ color: "white", textTransform: "none" }}
+                  sx={{
+                    color: "white",
+                    textTransform: "none",
+                    fontFamily: "fantasy",
+                  }}
                 >
                   Portfolio
                 </Button>
@@ -124,7 +136,11 @@ const Navbar = () => {
                 <Button
                   variant="text"
                   color="inherit"
-                  sx={{ color: "white", textTransform: "none" }}
+                  sx={{
+                    color: "white",
+                    textTransform: "none",
+                    fontFamily: "fantasy",
+                  }}
                 >
                   Blog
                 </Button>
@@ -136,7 +152,11 @@ const Navbar = () => {
                 <Button
                   variant="text"
                   color="inherit"
-                  sx={{ color: "white", textTransform: "none" }}
+                  sx={{
+                    color: "white",
+                    textTransform: "none",
+                    fontFamily: "fantasy",
+                  }}
                 >
                   Contact
                 </Button>
@@ -160,50 +180,60 @@ const Navbar = () => {
                 color: "white",
                 display: "block",
                 textTransform: "none",
+                fontFamily: "fantasy",
+                fontSize:'1.1rem',
               }}
             >
               About
             </Button>
             <Button
-            onClick={()=>navigate('/resume')}
+              onClick={() => navigate("/resume")}
               sx={{
                 my: 2,
                 color: "white",
                 display: "block",
                 textTransform: "none",
+                fontFamily: "fantasy",
+                fontSize:'1.1rem',
               }}
             >
               Resume
             </Button>
             <Button
-            onClick={()=>navigate('/portfoliopage')}
+              onClick={() => navigate("/portfoliopage")}
               sx={{
                 my: 2,
                 color: "white",
                 display: "block",
                 textTransform: "none",
+                fontFamily:'fantasy',
+                fontSize:'1.1rem',
               }}
             >
               Portfolio
             </Button>
             <Button
-            onClick={()=>navigate('/blog')}
+              onClick={() => navigate("/blog")}
               sx={{
                 my: 2,
                 color: "white",
                 display: "block",
                 textTransform: "none",
+                fontFamily: "fantasy",
+                fontSize:'1.1rem',
               }}
             >
               Blog
             </Button>
             <Button
-            onClick={()=>navigate('/contact')}
+              onClick={() => navigate("/contact")}
               sx={{
                 my: 2,
                 color: "white",
                 display: "block",
                 textTransform: "none",
+                fontFamily: "fantasy",
+                fontSize:'1.1rem',
               }}
             >
               Contact
