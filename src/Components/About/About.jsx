@@ -1,11 +1,16 @@
-import React from 'react';
+import { Box, Container, Typography } from "@mui/material";
+import React from "react";
 
 const About = () => {
-    return (
-        <div>
-            <h1>about</h1>
-        </div>
-    );
-}
+  return (
+    <>
+      <Box>
+        <Container>
+          <Typography color="white">fgdsfdsfsrewrfewrewrwedfewff</Typography>
+        </Container>
+      </Box>
+    </>
+  );
+};
 
 export default About;
