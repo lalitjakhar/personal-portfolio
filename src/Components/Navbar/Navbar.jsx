@@ -192,7 +192,7 @@ const Navbar = () => {
             <Button
               variant="contained"
               color="success"
-              onClick={() => navigate("/resume")}
+              onClick={() => navigate("/services")}
               sx={{
                 my: 2,
                 backgroundColor: "transparent",
@@ -203,7 +203,7 @@ const Navbar = () => {
                 fontSize: "1.1rem",
               }}
             >
-              Resume
+              Services
             </Button>
             <Button
               variant="contained"
